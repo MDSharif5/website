@@ -1,0 +1,166 @@
+@media all and (max-width: 1276px){
+
+	.first-half {
+	width: 100%;
+	float: none; 
+}
+     .second-halp {
+	   width: 100%;
+	   float: none;
+	   margin-left: 0px;
+	   margin-top: 20px;
+}
+.message label {
+	 
+	top: 70px;
+}
+}
+@media all and (max-width: 980px){
+	.nav{
+		display: none;
+	} 
+	.nav ul li{
+		display: block;
+		width: 200px;
+		text-align: center;
+		margin: auto;
+	}
+	.mobile-icon a{
+		display: block;
+	}
+	.container{
+	    width: 95%;
+    } 
+    .Service_box { 
+        margin-left: 0px; 
+    }
+    .Testimonial-img img {
+	    width: 80px;
+	    height: 80px; 
+    }
+    .single-Testimonial { 
+	   margin-left: 15px;
+}
+      .message textarea {
+        width: 98%; 
+    }
+       
+    .single_team_boxs i {
+	     font-size: 12px;
+	     padding: 5px;
+	 
+    }
+    }.footer-text ul li a { 
+	      margin: 0px 29px;
+
+}
+@media all and (max-width: 800px){
+        .Service_box{
+        	width: 45%;
+        }
+        .single_team_boxs {
+	        width: 45%; 
+	        margin-left: 25px;
+       }
+       .social_links {
+	      margin-bottom: 25px;
+	      margin-top: 25px;
+       }
+       .team_boxs {
+	      margin-top: 70px;
+       }.footer-text ul li a { 
+	      margin: 0px 19px;
+	      line-height: 2;
+        }
+	     footer {
+	     padding: 30px 0px;
+	     overflow: hidden;
+       }
+
+}
+@media all and (max-width: 788px){
+    .Testimonial-img img {
+	    width: 120px;
+	    height: 120px; 
+    }
+    .Testimonial-img {
+	  float: none;
+	  width: 200%;
+	  text-align: center;
+    }
+     .Testimonial-content {
+	   float: none;
+	   text-align: center;
+	   width: 121%; 
+	   margin-left: 140px;
+	   margin-top: 15px;
+     }
+    .Testimonial-content h2 {
+	  margin: 5px 0px 0px auto;
+    }
+     .Testimonial-content h5 {
+	  margin-left: auto;
+	  margin-top: 5px;
+     }
+}
+
+@media all and (max-width: 660px){
+ 
+        .single-Testimonial{
+	      width: 100%;
+	      margin-top: 30px;
+	    }
+	    .Testimonial-img {
+	     float: none;
+	     width: 100%;
+	     text-align: center;
+        }
+        .Testimonial-content {
+	     float: none;
+	     width: 100%;
+	     text-align: center;
+	     margin-top: 15px;
+	     margin-left: auto;
+        }
+        .Testimonial-content h2 {
+	     margin-top: 0px;
+        }
+        .Testimonial-content h5{
+         margin-top: 0px;
+        }
+        .Service_box {
+	     width: 100%;
+        }
+}
+@media all and (max-width: 480px){
+        .header_content h2 {
+	     font-size: 25px;
+        }
+         .Service_box{
+         	width: 100%;
+         	float: none;
+         }
+         .single_team_boxs {
+	      width: 100%;
+	      margin-left: 0px;
+        }
+        .single-Portfolio-box {
+	      width: 100%;
+	      float: none;
+	      text-align: center;
+	      margin-top: 20px;
+        }
+        .single-Portfolio-box img {
+	      width: 75%;
+	      margin-top: 13px;
+        }
+        .social_links {
+	      margin-bottom: 50px;
+	      margin-top: 0px;
+        } 
+}
+@media all and (max-width: 480px){
+	    .brown_btn{
+	    	width: 200px;
+	    }
+}

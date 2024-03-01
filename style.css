@@ -1,0 +1,410 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+header{
+	background-color: #87509c;
+	overflow: hidden;
+	padding-bottom: 130px;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.nav{
+	width: 80%;
+	float: left;
+}
+.nav ul{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+.nav ul li a{
+	color: #efe8f2;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	text-transform: uppercase;
+	transition: .3s;
+}
+.nav ul li a:hover{
+	background: #643a79;
+}
+.header_content{
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	margin-top: 140px;
+}
+.header-top{
+	overflow: hidden;
+	margin-top: 50px;
+}
+.header_content h2{
+	color: #f7f3ea;
+	font-size: 36px;
+}
+.brown_btn{
+	width: 270px;
+	text-align: center;
+	background: #eb7d4b;
+	padding: 20px;
+	display: inline-block;
+	margin-top: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+/* header End */
+
+/* Service Start */
+
+.service{
+	background: #17c2a4;
+	overflow: hidden;
+	padding: 120px 0px;
+}
+.service:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.Service_box{
+	width: 24%;
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 60px;
+	color: #fff;
+}
+.section-header{
+	text-align: center;
+	color: #fff;
+}
+.section-header p{
+	opacity: .7;
+}
+.Service_box img{
+	width: 80px;
+	height: 100px;
+}
+.Service_box h4{
+	margin-top: 40px;
+	margin-bottom: 0;
+	font-size: 24px;
+}
+.Service_box p{ 
+	font-size: 16px;
+	line-height: 22px;
+	opacity: .8;
+}
+.Service_box i{
+	height: 100px;
+	width: 80px;
+	font-size: 50px;
+}
+.team_section{
+	background: #e7f1f8;
+	overflow: hidden;
+	padding: 100px 0px;
+}
+.team_header{
+	color: #3c4761;
+}
+.team_header{
+	opacity: 1
+}
+.team_boxs{
+	margin-top: 100px;
+}
+.single_team_boxs{
+	width: 24%;
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+}
+.single_team_boxs img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	filter: grayscale(100%);
+}
+.single_team_boxs:hover img{
+	 filter: grayscale(0%);
+}
+.single_team_boxs h5{
+	margin: 0px;
+}
+.single_team_boxs h2{
+	margin-bottom: 5px;
+	color: #3c4761;
+	font-size: 24px;
+}
+.single_team_boxs p{
+	line-height: 1.6;
+}
+.social_links{
+	margin-top: 50px;
+}
+ .single_team_boxs i{
+	font-size: 16px; 
+	color: #fff;
+	background: #35719A;
+	border-radius: 50%;
+	padding: 10px;
+	margin-left: 10px;
+	transition: .3s;
+}
+.single_team_boxs i:hover{
+	color: #35719A;
+	background: red;
+}
+
+/* Portfolio start */
+
+.Portfolio{
+	background: #ffdd99;
+	overflow: hidden; 
+}
+.Portfolio-header{
+	color: #000;
+	padding: 50px 0px;
+}
+
+/* Portfolio End */
+.Portfolio-filter-menu{
+    margin-top: 0px;
+}
+
+.Portfolio-filter-menu ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+
+}
+.Portfolio-filter-menu ul li{
+	display: inline-block;
+}
+.Portfolio-filter-menu ul li a{
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	display: block;
+	padding: 5px 15px;
+	background: #ebc985;
+}
+.Portfolio-filter-menu ul li a:hover{
+	background: #fff;
+}
+.Portfolio-box{
+	margin-top: 60px;
+}
+.single-Portfolio-box{
+	width: 48%;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+.single-Portfolio-box img{
+    width: 100%;
+}
+.clear{
+	clear: both;
+	padding: 1px;
+}
+.Portfolio-btn{
+	width: 300px;
+	margin: 50px auto;
+	padding: 25px 0px;
+	display: block;
+	text-align: center;
+	color: #fff;
+	background: #17c2a4;
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-weight: 500;
+	border-bottom: 1px solid #000;
+}
+
+/* Portfolio start */
+.testimonial-area{
+	padding: 50px 0px;
+	background: #d74680;
+	clear: both;
+}
+.Testimonial-box{
+	margin-top: 50px;
+}
+.Testimonial-box:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.single-Testimonial{
+	float: left;
+	width: 48%;
+	margin-top: 50px;
+}
+.Testimonial-img{
+	float: left;
+	width: 30%;
+}
+.Testimonial-img img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.Testimonial-content{
+	float: left;
+	width: 65%;
+	color: #fff;
+}
+.Testimonial-content h2{
+	margin: 20px 0px 0px 0px;
+	font-size: 24px;
+}
+.Testimonial-content h5{
+	margin-top: 8px;
+	color: #efa18f;
+	font-size: 18px;
+}
+.Testimonial-content p{
+	margin: 0px;
+}
+/* Portfolio End */
+
+/* Contact Section Start */
+
+.contact-section{
+	padding: 50px 0px;
+	background: #3c5499;
+}
+.first-half{
+	width: 48%;
+	float: left;
+	position: relative;
+}
+.second-halp{
+	width: 48%;
+	float: left;
+	position: relative;
+	margin-left: 40px;
+}
+.first-half input{
+	width: 100%;
+	background: #273a71;
+	padding: 10px 0px;
+	border-radius: 5px;
+	border: none;
+}
+.first-half label{
+	position: absolute;
+	color: #fff;
+	top: 10px;
+	left: 20px;
+}
+.first-half label span{
+	color: red;
+}
+.second-halp input{
+	width: 100%;
+	background: #273a71;
+	padding: 10px 0px;
+	border-radius: 5px;
+	border: none;
+}
+.second-halp label{
+	position: absolute;
+	color: #fff;
+	top: 10px;
+	left: 20px;
+}
+.second-halp label span{
+	color: red;
+}
+form{
+	margin-top: 50px;
+}
+.message textarea{
+	width: 100%;
+	background: #273a71;
+	border: none;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+.message{
+    position: relative;
+}
+.message label{
+	position: absolute;
+	top: 90px;
+	left: 20px;
+	color: #fff;
+}
+.message label span{
+	color: red;
+}
+.send-btn{
+	margin-top: 30px;
+	text-align: center;
+}
+.send-btn input[type="submit"]{
+	background: #30bae7;
+	color: #fff;
+	padding: 10px 30px;
+	font-size: 18px;
+	border: none;
+	border-radius: 3px;
+	font-weight: 700;
+}
+
+
+/* Footer Section End */
+footer{
+	padding: 30px 0px;
+	background: #344b8e;
+}
+.footer-text{
+	margin-bottom: -20px;
+	display: block;
+}
+.footer-text ul{
+	padding: 0;
+	margin-top: 0;
+	list-style: none;
+	margin-left: 75px;
+}
+.footer-text ul li{
+	float: left;
+}
+.footer-text ul li a{
+	color: #fff;
+	text-decoration: none;
+	margin: 0px 35px;
+}
+.footer-text ul li a:hover{
+	color: #30bae7;
+}
+/* Footer Section End */
+
+/* responsive css */
+
+.mobile-icon a{
+	color: #fff;
+	float: right;
+	display: none;
+	font-size: 20px;
+}
